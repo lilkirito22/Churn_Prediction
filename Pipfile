@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+plotly = "*"
+matplotlib = "*"
+pingouin = "*"
+nbformat = "*"
+ipykernel = "*"
+scikit-learn = "*"
+optuna = "*"
+ipywidgets = "*"
+gradio = "*"
+catboost = "*"
+lightgbm = "*"
+xgboost = "*"
+joblib = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
